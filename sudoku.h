@@ -1,12 +1,3 @@
-/****************************************************************/
-/* Auteur : S. Gueye						                    */
-/* TP : Sudoku bactracking algorithm				            */
-/* Date dernière maj : 24/11/2020				                */
-/****************************************************************/
-
-/****************************************************************/
-/* Objectif : Classe représentant une cellule de la grille 
-/****************************************************************/
 class cellule
 {
     friend class sudoku;
@@ -22,8 +13,7 @@ class cellule
 
 
 /****************************************************************/
-/* Objectif : Classe permettant de lire une grille sudoku et de la résoudre
-/****************************************************************/
+/* Objectif : Classe permettant de lire une grille sudoku et de la résoudre*/
 class sudoku{
 	int grille[9][9];			    // La grille
 
