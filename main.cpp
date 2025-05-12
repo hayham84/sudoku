@@ -4,12 +4,9 @@ using namespace std;
 
 #include "sudoku.h"
 
-/************************************************/
-/* Programme principal				*/
-/* argc : nombre d'arguments à l'appel du 	*/
-/* programme exécutable				*/
-/* argv : Liste des arguments			*/
-/************************************************/
+/* Programme principal				
+argc : nombre d'arguments à l'appel du programme exécutable				
+argv : Liste des arguments			*/
 int main(int argc,char** argv)
 {	
 	if(argc < 2)
